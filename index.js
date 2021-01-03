@@ -1,21 +1,5 @@
 // Write your code here!
+document.querySelector('main#main').remove()
+
 let newHeader = document.querySelector('h1#victory')
-newHeader.innerHTML = 
-
-
-document.body.appendChild(element)
-
-let ul = document.createElement('ul')
-
-for (let i = 0; i < 3; i++) {
-  let li = document.createElement('li')
-  li.innerHTML = (i + 1).toString()
-  ul.appendChild(li)
-}
-
-element.appendChild(ul)
-
-element.style.backgroundColor = '#27647B';
-
-element.style.textAlign = 'center';
-ul.style.textAlign = 'left'
+newHeader.innerHTML = "YOUR-NAME is the champion"
